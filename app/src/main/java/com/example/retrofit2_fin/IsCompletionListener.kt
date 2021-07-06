@@ -4,4 +4,5 @@ interface IsCompletionListener {
         fun loadComplete(data: Data)
         fun responseIsNotSuccesful(code: Int)
         fun loadFail()
+        fun onclick(data: Content)
 }
