@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.retrofit2_fin">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
-    <!--안드로이드는 기본적으로 http 와의 통신을 지원하지 않기때문에 아래의 옵션을 주어야한다. (usesCleartextTraffic)-->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Retrofit2_fin"
         android:usesCleartextTraffic="true">
-
+        <activity android:name=".ContentActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
